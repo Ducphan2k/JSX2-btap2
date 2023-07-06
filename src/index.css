@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(50, 41, 117);
+  display: flex;
+  justify-content: center;
+  
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+ 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  
+}
+th {
+  color: red;
+}
+ 
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
